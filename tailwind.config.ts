@@ -13,6 +13,9 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      PretendardVarible: ["var(--font-pretendard)"]
+    },
   },
   plugins: [],
 } satisfies Config;
