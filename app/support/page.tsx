@@ -20,12 +20,21 @@ export default function Support() {
     
     <div className="w-[31vw] h-[50vh] float-right mr-[18vw]">
         <div className="mt-[5vh]"></div>
+<<<<<<< HEAD
+        <div className="text-center"><a href="https://www.goodneighbors.kr/" target="_blank" className="text-[18px] underline font-normal font-['Pretendard Variable'] text-black">https://www.goodneighbors.kr/</a></div>
+        <div className="text-center mt-[5vh]"><a href="https://www.unhcr.org/kr/get-involved" target="_blank" className="text-[18px] underline font-normal font-['Pretendard Variable'] text-black">https://www.unhcr.org/kr/get-involved</a></div>
+        <div className="text-center mt-[5vh]"><a href="https://www.nancen.org/" target="_blank" className="text-[18px] font-normal underline font-['Pretendard Variable'] text-black">https://www.nancen.org/</a></div>
+        <div className="text-center mt-[5vh]"><a href="https://www.unicef.or.kr/" target="_blank" className="text-[18px] font-normal underline font-['Pretendard Variable'] text-black">https://www.unicef.or.kr/</a></div>
+        <div className="text-center mt-[5vh]"><a href="https://adrf.or.kr/" target="_blank" className="text-[18px] font-normal underline font-['Pretendard Variable'] text-black">https://adrf.or.kr/</a></div>
+        <div className="text-center mt-[5vh]"><a href="https://www.caritas.or.kr/" target="_blank" className="text-[18px] font-normal underline font-['Pretendard Variable'] text-black">https://www.caritas.or.kr/</a></div>
+=======
         <div className="text-center"><a href="https://www.goodneighbors.kr/" target="_blank" className="text-[18px] font-normal font-['Pretendard Variable'] text-black">https://www.goodneighbors.kr/</a></div>
         <div className="text-center mt-[5vh]"><a href="https://www.unhcr.org/kr/get-involved" target="_blank" className="text-[18px] font-normal font-['Pretendard Variable'] text-black">https://www.unhcr.org/kr/get-involved</a></div>
         <div className="text-center mt-[5vh]"><a href="https://www.nancen.org/" target="_blank" className="text-[18px] font-normal font-['Pretendard Variable'] text-black">https://www.nancen.org/</a></div>
         <div className="text-center mt-[5vh]"><a href="https://www.unicef.or.kr/" target="_blank" className="text-[18px] font-normal font-['Pretendard Variable'] text-black">https://www.unicef.or.kr/</a></div>
         <div className="text-center mt-[5vh]"><a href="https://adrf.or.kr/" target="_blank" className="text-[18px] font-normal font-['Pretendard Variable'] text-black">https://adrf.or.kr/</a></div>
         <div className="text-center mt-[5vh]"><a href="https://www.caritas.or.kr/" target="_blank" className="text-[18px] font-normal font-['Pretendard Variable'] text-black">https://www.caritas.or.kr/</a></div>
+>>>>>>> 01b9946695c898fc146d4d0604770e75be3a8057
         <div className="mt-[5vh]"></div>
     </div>
         <div className="w-[65vw] h-[0px] border mt-[52vh] border-black m-auto"></div>
