@@ -57,7 +57,7 @@ const Home: React.FC = () => {
     return (
         <div className="font-PretendardVarible">
             <div>
-                <hr className="mt-[0.5rem] mb-[0.5rem] ml-auto mr-auto" />
+                <hr className="mt-[1rem] mb-[1rem] ml-auto mr-auto" />
             </div>
             <div className="flex justify-center mt-[1rem] text-center text-black font-normal">
                 <input type="button" value="현재 위치" onClick={() => router.refresh()} className="w-[128px] h-[30px] bg-[#38ccae] active:bg-[#009476] rounded-[50px]"/>

@@ -36,7 +36,7 @@ const NewsPage: React.FC = () => {
     
     <div className="text-center text-black text-[20px] font-medium mt-[1rem]">
       <div>
-          <hr className="mt-[0.25rem] mb-[0.25rem] ml-auto mr-auto" />
+          <hr className="ml-auto mr-auto" />
       </div>
       <div className="text-center mt-[1rem] mb-[1rem]">
           <span className="text-black text-3xl font-medium font-PretendardVarible">뉴스 </span>
