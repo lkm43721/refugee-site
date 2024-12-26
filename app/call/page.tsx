@@ -140,7 +140,7 @@ const Home: React.FC = () => {
                     <tbody>
                         <tr>
                             <th className="w-[200px] font-normal">02-2110-4174</th>
-                            <th className="w-[400px] font-normal">난민심의과(난민불인정 및 난민인정 취소 또는 철회에 대한 <br />이의신청 심의에 관한 정보를 제공하는 전화번호)</th>
+                            <th className="w-[400px] font-normal">난민심의과(난민 불인정 및 난민 인정 취소 또는 철회에 대한 <br />이의신청 심의에 관한 정보를 제공하는 전화번호)</th>
                             <th className="w-[200px] font-normal">경기도 과천시 관문로 47 정부과천청사</th>
                         </tr>
                     </tbody>
