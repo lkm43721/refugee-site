@@ -20,7 +20,7 @@ export default function Topbar() {
                             <Link href="/shelter">대피소 위치</Link>
                             <Link href="/call">비상 연락망</Link>
                             <Link href="/qna">Q&A</Link>
-                            <Link href="/lang">언어</Link>
+                            {/*<Link href="/lang">언어</Link>*/}
                             <Link href="/support">후원</Link>
                         </div>
                     </div>
