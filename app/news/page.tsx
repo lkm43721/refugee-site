@@ -18,7 +18,7 @@ const NewsPage: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/news/api/crawl");
+        const response = await fetch("/news/api");
         if (!response.ok) {
           throw new Error("데이터를 가져오는 중 문제가 발생했습니다.");
         }
@@ -33,14 +33,17 @@ const NewsPage: React.FC = () => {
   }, []);
 
   return (
-    
     <div className="text-center text-black text-[20px] font-medium mt-[1rem]">
       <div>
-          <hr className="ml-auto mr-auto" />
+        <hr className="ml-auto mr-auto" />
       </div>
       <div className="text-center mt-[1rem] mb-[1rem]">
-          <span className="text-black text-3xl font-medium font-PretendardVarible">뉴스 </span>
-          <span className="text-[#009476] text-3xl font-medium font-PretendardVarible">on Refugees</span>
+        <span className="text-black text-3xl font-medium font-PretendardVarible">
+          뉴스{" "}
+        </span>
+        <span className="text-[#009476] text-3xl font-medium font-PretendardVarible">
+          on Refugees
+        </span>
       </div>
       {error ? (
         <p style={{ color: "red" }}>{error}</p>
@@ -48,7 +51,11 @@ const NewsPage: React.FC = () => {
         <ul>
           {articles.map((article, index) => (
             <li key={index} style={{ marginBottom: "20px" }}>
-              <Link href={article.link} target="_blank" rel="noopener noreferrer">
+              <Link
+                href={article.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <h2>{article.title}</h2>
               </Link>
               <hr className="mt-[0.25rem] mb-[0.25rem] w-[800px] ml-auto mr-auto" />

@@ -21,9 +21,7 @@ export default function MainPage() {
                     </div>
                 </div>
             </div>
-            <div>
-                <h2 className=" text-black p-5 m-5 text-2xl font-normal font-PretendardVarible">그래프</h2><br/>
-                {/*<Doughnut />*/}
+            <div className="mb-[10rem]">
             </div>
         </div>
     )
