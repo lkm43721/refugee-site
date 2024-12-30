@@ -17,11 +17,17 @@ const DefaultIcon = L.icon({
 });
 L.Marker.prototype.options.icon = DefaultIcon;
 
+// Place 인터페이스 정의
+interface Place {
+  name: string;
+  address: string;
+  lat: number;
+  lng: number;
+}
+
 const OpenStreetMapWithFilter: React.FC = () => {
   const [keyword, setKeyword] = useState<string>("shelter");
-  const [places, setPlaces] = useState<
-    { name: string; address: string; lat: number; lng: number }[]
-  >([]);
+  const [places, setPlaces] = useState<Place[]>([]);
   const [location, setLocation] = useState<{ lat: number; lng: number } | null>(
     null
   );
@@ -80,7 +86,7 @@ const OpenStreetMapWithFilter: React.FC = () => {
       }
 
       const data = await response.json();
-      const fetchedPlaces = data.elements.map((place: any) => ({
+      const fetchedPlaces: Place[] = data.elements.map((place: any) => ({
         name: place.tags.name || place.tags.amenity || "Unknown Place",
         address: `${place.lat}, ${place.lon}`,
         lat: place.lat,
